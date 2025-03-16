@@ -1,5 +1,12 @@
+"""チャットアプリケーションのエントリーポイント。"""
+
+from src.chat_app import ChatApp
+
+
 def main():
-    print("Hello from src!")
+    """アプリケーションのメインエントリーポイント。"""
+    app = ChatApp()
+    app.launch()
 
 
 if __name__ == "__main__":
